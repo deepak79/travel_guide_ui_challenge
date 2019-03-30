@@ -1,0 +1,29 @@
+name: travel_guide
+description: Travel Guide
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/lake.jpeg
+    - assets/images/mountain.jpg
+
+  fonts:
+    - family: Umba
+      fonts:
+        - asset: assets/fonts/UmbaSans-Bold.otf
+          weight: 200
